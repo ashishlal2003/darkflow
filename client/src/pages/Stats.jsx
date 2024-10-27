@@ -88,9 +88,11 @@ export default function Stats() {
   return (
     <div className="stats-body min-h-screen bg-gradient-to-b from-black via-gray-900 to-black text-white p-8">
       <div className="max-w-4xl mx-auto">
-        <h1 className="text-4xl font-bold mb-6 text-center text-teal-500">
-          Unlock the Potential of Your Dataset:
+      <div className="flex justify-center">
+        <h1 className="text-5xl max-w-[500px] font-bold mb-6 text-center text-white-500">
+          Unlock the Potential of Your Dataset
         </h1>
+        </div>
         <p className="text-lg font-bold mb-6 text-center text-teal-500">
           It's Perfect for {datasetType}!
         </p>
